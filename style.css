@@ -1,0 +1,135 @@
+:root {
+    --dark-bg: #1e1e1e;
+    --light-text: #ffffff;
+    --gray-text: #a0a0a0;
+    --primary-color: #007bff; 
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.social-links a {
+    color: var(--light-text);
+    font-size: 1.5rem;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+}
+
+.container {
+    display: flex;
+    padding: 40px;
+}
+
+.content {
+    flex: 2;
+    padding-right: 40px;
+}
+
+.profile-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+}
+
+.profile-image-container {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #444;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-size: 1rem;
+    color: var(--gray-text);
+}
+
+.section-title {
+    font-size: 1.8rem;
+    border-bottom: 2px solid var(--light-text);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    line-height: 1.6;
+    color: var(--gray-text);
+    font-size: 1rem;
+}
+
+.technologies {
+    margin-top: 40px;
+}
+
+.tech-icons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100px;
+    box-sizing: border-box; 
+}
+
+.tech-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.tech-name {
+    font-size: 0.9rem;
+    color: var(--gray-text);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--gray-text);
+    font-size: 0.8rem;
+    border-top: 1px solid #333;
+}

@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    main.container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content, .profile {
+        width: 100%;
+    }
+
+    .profile {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    .about h2, .tech h2 {
+        font-size: 1.5rem;
+    }
+
+    .tech-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-pic span {
+        font-size: 2rem;
+    }
+}

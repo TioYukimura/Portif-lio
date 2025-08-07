@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Desktop/portifolio projeto final IFNMG/css"
+		},
+		{
+			"path": "../../Desktop/portifolio projeto final IFNMG/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portifolio"
+	}
+}

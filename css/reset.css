@@ -1,0 +1,13 @@
+body, h1, h2, p, nav, a, ul, li, figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    line-height: 1;
+}
